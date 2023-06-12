@@ -1,0 +1,15 @@
+:root{
+  --color-dark:#090E16;
+  --color-purple:#7B4AE2;
+  --color-rose:#C83267;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+} 
+body{
+background: var(--color-dark);
+}
