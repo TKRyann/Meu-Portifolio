@@ -1,7 +1,8 @@
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
 :root{
   --color-dark:#090E16;
   --color-purple:#7B4AE2;
-  --color-rose:#C83267;
+  --color-rose:#ff0059;
 }
 *{
   margin: 0;
@@ -9,7 +10,72 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-} 
+  font-family: Raleway, sans-serif;
+}
+
 body{
 background: var(--color-dark);
+overflow: hidden;
+width: 100%;
+height: 100vh;
+} 
+
+header{
+background-color: transparent;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 28px 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 100;
+}
+
+i{
+  position: relative;
+  justify-content: space-between;
+  display: flex;
+  } 
+  
+  
+.navbar a{
+  display: inline-block ;
+  font-size: 25px;
+  color: azure;
+  margin-left: 35px;
+  transition: .3s;
+}
+.navbar a:hover{
+  color: var(--color-purple);
+}
+
+.home-content{
+  color: white;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 50px 15% 0;
+}
+
+.logo{ 
+background-color: transparent;
+height: 100vh;
+width: 400px;
+
+}
+.saudação{
+font-size: 20px;
+color: var(--color-rose);
+}
+
+.work{
+  font-size: 25px;
+  font-weight: 400;
+}
+main{
+  font-size: 32px;
+  font-weight: 700;
 }
