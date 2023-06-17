@@ -1,36 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Portifolio</title>
 </head>
+
 <body>
   <header>
-    <i class="fa-solid fa-terminal fa-bounce" style="color: #edeff2;"></i>
-    <nav  class="navbar">
-        <a href="#">Home</a>
-        <a href="#">Sobre mim</a>
-        <a href="#">Projetos</a>
-        <a href="#">Contato</a>
+
+    <i class="fa-solid fa-terminal fa-bounce"></i>
+    <nav class="nav-menu">
+      <a href="#">Home</a>
+      <a href="#">Sobre mim</a>
+      <a href="#">Projetos</a>
+      <a href="#">Contato</a>
     </nav>
 
-  </header> 
+  </header>
+
   <main>
-    <div class="home-content">
-      <div class="info-mim">
-        <h3 class="saudação">🖖Saudação</h3>
-        <h1 class="my-name">Kherlysson Ryann</h1>
-        <h3 class="work">Student TI · Front-end developer</h3>   
-      </div>  
-     <div class="logo">
-        <img src="logo-eu.png" alt="Minha logo">
-      </div>  
-    </div>
+    <section class="home">
+      <div class="home-content">
+        <div class="info-mim">
+          <p class="saudação">🖖Saudação</p>
+          <h1 class="meu-nome">Kherlysson Ryann</h1>
+          <p class="ocupação">Student TI · Front-end developer</p>
+          <div class="redes-socias">
+            <a href="https://www.linkedin.com/in/tkryann/" target="_blank"> <i class="fa-brands fa-linkedin-in fa-beat" > </i> </a>
+            <a href="https://github.com/TKRyann" target="_blank"> <i class="fa-brands fa-github fa-beat" > </i> </a>
+            <a href="https://wa.me/5598989028196" target="_blank"> <i class="fa-brands fa-whatsapp fa-beat" > </i> </a> 
+           <!-- LINK PARA MEU CURRICULO <a href="###" target="_blank"> <i class="fa-solid fa-link fa-beat"> </i> Baixar CV </a> -->
+          </div>
+        </div>
+        <div class="logo">
+          <img src="img/logo-main.png" alt="Minha logo">
+        </div>
+    </section>
+    <section class="sobre-mim">
+      
+      <img clas="logo" src="/img/foto-minha.png" alt="minha foto">
+      <div class="info">
+        <h1 class="sobre-mim-title">Sobre mim</h1>
+        <h1 class="meu-nome-sobre-mim"> KHERLYSSON RYANN FERREIRA DA SILVA</h1>
+        <p class="info-eu">👋 Me chamo Kherlysson Ryann Ferreira Da Silva, mas pode me chamar apenas de Ryann. Prazer!</p>
+        <p class="info-eu">👨‍💻 Atualmente, estou apredendo <strong>HTML, CSS e JAVA SCRIPT</strong>...</p>
+        <p class="info-eu">🎓 Graduando em Análise e Desenvolvimento de Sistemas pela Estácio de São Luís do MA.</p>
+        <p class="info-eu">💡 Interesses em desenvolvimento <strong>Front-end com React</strong>, <strong>React Native </strong> e <strong> UX/UI Design</strong>.</p>
+        <p class="info-eu">🚀 Tentando ser um pouquinho melhor do que ontem todos dias.</p>
+      </div>
+    </section>
   </main>
 </body>
 </html>
