@@ -58,7 +58,6 @@ a:hover {
 }
 .saudação {
   font-size: 20px;
-
   color: var(--color-rose);
 }
 .redes-socias {
@@ -78,7 +77,7 @@ a:hover {
 }
 
 .logo{
-margin-top:30px;
+margin-top:40px;
 } 
 .sobre-mim-title{
   border-top: 0.4px solid var(--color-purple);
@@ -86,7 +85,7 @@ margin-top:30px;
   font-family: Raleway, sans-serif;
   display: flex;
   justify-content: space-around;
-  font-size: 40px;
+  font-size: 60px;
   color: var(--color-rose);
 }
 .sobre-mim{
@@ -98,6 +97,50 @@ margin-top:30px;
   padding: 24px;
   
 } 
+.meu-nome-sobre-mim{
+  font-size: 38px;
+  font-family: Raleway, sans-serif;
+} 
 .info-eu{
 display: flex;
+font-family: "Share Tech Mono", monospace;
+padding:5px;
 }
+.projetos-title{
+  font-size: 60px;
+  font-family: Raleway, sans-serif;
+  padding: 24px;
+  color: var(--color-rose);
+  display: flex;
+  justify-content: center;
+  border-top: 0.4px solid var(--color-purple);
+}
+
+.cards{
+  display: flex;
+  padding: 5px;
+  justify-content: center; 
+  
+}
+.card-code-geek, .card-meus-links, .card-reprodutor-music{
+  border: var(--color-purple ) 5px solid;
+  
+}
+.img-card{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding: 10px;
+}
+.card-title{
+  font-size: 24px;
+  color: var(--color-rose);
+  display: flex;
+  justify-content: center;
+} 
+.descrição{
+  font-size: 15px;
+  color: var(--color-azure);
+  
+}
+
