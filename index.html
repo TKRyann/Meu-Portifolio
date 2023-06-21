@@ -13,7 +13,7 @@
 <body>
   <header>
 
-    <i class="fa-solid fa-terminal fa-bounce"></i>
+    <i id="icon-nav" class="fa-solid fa-terminal fa-bounce"></i>
     <nav class="nav-menu">
       <a href="#">Home</a>
       <a href="#">Sobre mim</a>
@@ -31,9 +31,9 @@
           <h1 class="meu-nome">Kherlysson Ryann</h1>
           <p class="ocupação">Student TI · Front-end developer</p>
           <div class="redes-socias">
-            <a href="https://www.linkedin.com/in/tkryann/" target="_blank"> <i class="fa-brands fa-linkedin-in fa-beat" > </i> </a>
-            <a href="https://github.com/TKRyann" target="_blank"> <i class="fa-brands fa-github fa-beat" > </i> </a>
-            <a href="https://wa.me/5598989028196" target="_blank"> <i class="fa-brands fa-whatsapp fa-beat" > </i> </a> 
+            <a class="link-nav" href="https://www.linkedin.com/in/tkryann/" target="_blank"> <i id="icon-home" class="fa-brands fa-linkedin-in fa-beat" > </i> </a>
+            <a class="link-nav" href="https://github.com/TKRyann" target="_blank"> <i id="icon-home" class="fa-brands fa-github fa-beat" > </i> </a>
+            <a class="link-nav" href="https://wa.me/5598989028196" target="_blank"> <i id="icon-home" class="fa-brands fa-whatsapp fa-beat" > </i> </a> 
            <!-- LINK PARA MEU CURRICULO <a href="###" target="_blank"> <i class="fa-solid fa-link fa-beat"> </i> Baixar CV </a> -->
           </div>
         </div>
@@ -41,6 +41,7 @@
           <img src="img/logo-main.png" alt="Minha logo">
         </div>
     </section>
+
     <section class="sobre-mim">
       <img clas="logo" src="img/foto-minha.png" alt="minha foto">
       <div class="info">
@@ -53,31 +54,39 @@
         <p class="info-eu">🚀 Tentando ser um pouquinho melhor do que ontem todos dias.</p>
       </div>
     </section>
+
     <section class="projetos">
       <h1 class="projetos-title">
         Projetos
       </h1>
-      <div class="cards">
-        
+      <div class="cards">       
         <div class="card-code-geek">
-          <img class="img-card" src="img/logo-me.png" alt="imagem da rede social code geek">
+          <img class="img-card" src="img-projetos/CodeGeek.png" alt="imagem da rede social code geek">
           <h3 class="card-title"> Code Geek </h3>
           <p class="descrição">CodeGeek é uma rede social dedicada a programadores, desenvolvedores e entusiastas do mundo nerd. O objetivo é fornecer uma plataforma para compartilhar conhecimentos, projetos e se conectar com outros membros da comunidade.</p>
+          <a class="ver-projetos" href="https://tkryann.github.io/CodeGeek/" target="_blank"><i class="fa-solid fa-link"></i>Ver Projeto</a>
+          <a class="ver-repositorio" href="https://github.com/TKRyann/CodeGeek" target="_blank"><i id="icon-card" class="fa-solid fa-link"></i> Ver Repositorio </a>
         </div>
         
         <div class="card-meus-links">
-          <img class="img-card" src="img/logo-me.png" alt="imagem do site meus links">
+          <img class="img-card" src="img-projetos/MeusLinks.png" alt="imagem do site meus links">
           <h3 class="card-title"> Meus Links </h3>
           <p class="descrição">Este é um site simples baseado no conceito do Linktree, criado por mim usando HTML e CSS. O objetivo é fornecer uma maneira fácil e organizada de compartilhar vários links importantes em um só lugar.</p>
+          <a class="ver-projetos" href="#" target="_blank"><i class="fa-solid fa-link"></i>Ver Projeto</a>
+          <a class="ver-repositorio" href="#" target="_blank"> <i id="icon-card" class="fa-solid fa-link"></i> Ver Repositorio </a>
         </div>
-        
+
         <div class="card-reprodutor-music">
-          <img class="img-card" src="img/logo-me.png" alt="imagem do reprodutor musicas">
+          <img class="img-card" src="img-projetos/TKCast.png" alt="imagem do reprodutor musicas">
           <h3 class="card-title"> Playear Music </h3>
-          <p class="descrição">Este é um projeto de um player de música simples feito com HTML, CSS e JavaScript, desenvolvido como um exercício de estudo. O player permite reproduzir músicas em diferentes formatos, como MP3, WAV, entre outros, e possui controles básicos, como play, pause e avanço/retroceder.</p>
+          <p class="descrição">Este é um projeto de um player de música simples feito com HTML, CSS e JavaScript, desenvolvido como um exercício de estudo. O player permite reproduzir músicas em diferentes formatos, como MP3, WAV, entre outros, e possui controles básicos.</p> 
+          <a class="ver-projetos" href="https://tkryann.github.io/player-music/" target="_blank"> <i class="fa-solid fa-link"> </i> Ver Projeto </a>
+          <a class="ver-repositorio" href="https://github.com/TKRyann/player-music" target="_blank"> <i id="icon-card" class="fa-solid fa-link"> </i> Ver Repositorio </a>
         </div>
-        
+
+      </div>    
       </div>
+      
     </section>
   </main>
 </body>

@@ -27,8 +27,7 @@ header {
   justify-content: space-around;
   padding: 24px;
 }
-
-i {
+#icon-home, #icon-nav{
   font-size: 30px;
   color: var(--color-rose);
 }
@@ -40,10 +39,12 @@ i {
 }
 a {
   color: var(--color-azure);
-  transition: 0.5s;
+  
+  transition: 0.8s;
 }
 
 a:hover {
+  font-family:"Share Tech Mono", monospace ;
   color: var(--color-rose);
 }
 
@@ -89,6 +90,7 @@ margin-top:40px;
   color: var(--color-rose);
 }
 .sobre-mim{
+  width: 100%;
   color: var(--color-azure);
   gap: 30px;
   display: flex;
@@ -118,29 +120,44 @@ padding:5px;
 
 .cards{
   display: flex;
-  padding: 5px;
-  justify-content: center; 
   
+}
+.card-code-geek{
+  border-right: 1px solid var(--color-purple);
+}
+.card-reprodutor-music{
+  border-left: 1px solid var(--color-purple);
 }
 .card-code-geek, .card-meus-links, .card-reprodutor-music{
-  border: var(--color-purple ) 5px solid;
-  
+  padding: 25px;
+  width: 100%;
 }
 .img-card{
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  padding: 10px;
+  padding: 25px;
 }
 .card-title{
-  font-size: 24px;
+  font-size: 27px;
   color: var(--color-rose);
   display: flex;
   justify-content: center;
 } 
 .descrição{
-  font-size: 15px;
+  font-size: 17px;
+  font-family:"Share Tech Mono", monospace ;
+  text-align: justify;
   color: var(--color-azure);
-  
+}
+.ver-repositorio, .ver-projetos{
+  display:inline-flex;
+  padding: 15px;
+  gap: 12px;
+  color: var(--color-purple);
+  font-weight: bold;
+  font-size: 17px;
+  transition: 0.8s;
+} 
+
+.ver-repositorio, .ver-projetos:hover{
+font-family:"Share Tech Mono", monospace ;
 }
 
