@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap");
 :root {
-  --color-dark: #090e16;
-  --color-purple: #7b4ae2;
-  --color-rose: #ff0059;
-  --color-azure: #f0ffff;
+  --color-dark-backgraud: #090e16;
+  --color-purple-details: #7b4ae2;
+  --color-rose-title: #ff0059;
+  --color-azure-letras: #f0ffff;
 }
 * {
   margin: 0;
@@ -16,8 +16,7 @@
 }
 
 body {
-  background: var(--color-dark);
-  width: 100%;
+  background: var(--color-dark-backgraud);
   height: 100vh;
 }
 
@@ -29,36 +28,37 @@ header {
 }
 #icon-home, #icon-nav{
   font-size: 30px;
-  color: var(--color-rose);
+  color: var(--color-rose-title);
 }
 
 .nav-menu {
   display: flex;
   gap: 32px;
-  font-size: 22px;
+  font-size: 20px;
 }
 a {
-  color: var(--color-azure);
-  transition: 0.8s;
+  color: var(--color-azure-letras);
+  transition: 0.8s ease;
 }
 
 a:hover {
+  font-size: 20px;
   font-family:"Share Tech Mono", monospace ;
-  color: var(--color-rose);
+  color: var(--color-rose-title);
 }
 
 .home-content {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border-top: 0.4px solid var(--color-purple);
-  color: var(--color-azure);
+  border-top: 0.4px solid var(--color-purple-details);
+  color: var(--color-azure-letras);
   font-size: 32px;
   font-weight: 700;
 }
 .saudação {
   font-size: 20px;
-  color: var(--color-rose);
+  color: var(--color-rose-title);
 }
 .redes-socias {
   display: flex;
@@ -76,13 +76,14 @@ a:hover {
   font-weight: 400;
 }
 
-.logo{
-margin-top:40px;
+.logo-sobremim{
+  margin:7%;
+  width: 450px;
 } 
 
 .sobre-mim{
   width: 100%;
-  color: var(--color-azure);
+  color: var(--color-azure-letras);
   gap: 30px;
   display: flex;
   align-items: center;
@@ -92,7 +93,6 @@ margin-top:40px;
 } 
 .meu-nome-sobre-mim{
   font-size: 38px;
-  font-family: Raleway, sans-serif;
 } 
 .info-eu{
 display: flex;
@@ -101,24 +101,24 @@ padding:5px;
 }
 .projetos-title, .contato-title, .sobre-mim-title{
   font-size: 60px;
-  font-family: Raleway, sans-serif;
   padding: 20px;
-  color: var(--color-rose);
+  color: var(--color-rose-title);
   display: flex;
   justify-content: center;
-  border-top: 0.4px solid var(--color-purple);
+  border-top: 0.4px solid var(--color-purple-details);
 }
 
 .cards{
   display: flex;
+  margin-bottom: 50px;
   
 }
 .card-code-geek{
-  border-right: 1px solid var(--color-purple);
+  border-right: 0.4px solid var(--color-purple-details);
   
 }
 .card-reprodutor-music{
-  border-left: 0.4px solid var(--color-purple);
+  border-left: 0.4px solid var(--color-purple-details);
 }
 .card-code-geek, .card-meus-links, .card-reprodutor-music{
   padding: 25px;
@@ -129,10 +129,11 @@ padding:5px;
  /*filter: contrast(110%);*/
  filter: saturate(150%);
   
-}
+} 
+
 .card-title{
   font-size: 27px;
-  color: var(--color-rose);
+  color: var(--color-rose-title);
   display: flex;
   justify-content: center;
 } 
@@ -140,18 +141,52 @@ padding:5px;
   font-size: 17px;
   font-family:"Share Tech Mono", monospace ;
   text-align: justify;
-  color: var(--color-azure);
+  color: var(--color-azure-letras);
 }
 
 .ver-repositorio, .ver-projetos{
-  display:inline-flex;
+  display:inline-block;
   padding: 15px;
   gap: 12px;
-  color: var(--color-purple);
+  color: var(--color-purple-details);
   font-weight: bold;
   font-size: 17px;
-  transition: 0.8s;
 } 
+
+.info-contato{
+  font-size: 20px;
+  font-family:"Share Tech Mono", monospace ;
+  text-align: center;
+  color: var(--color-azure-letras);
+  
+}
+strong{
+  color: var(--color-purple-details);
+}
+.redes-socias-contatos{
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  gap: 30px; 
+}
+
+#icon-footer{
+  margin:30px 0 30px;
+  font-size: 30px; 
+  color: var(--color-rose-title);
+}
+
+footer{
+  padding: 13px;
+  background-color:#7a4ae225 ;
+}
+.copyrigth{
+  font-size: 16px;
+  opacity: 50%;
+  color: var(--color-azure-letras);
+  text-align: center;
+}
+
 
 
 
