@@ -26,7 +26,8 @@ header {
   justify-content: space-around;
   padding: 24px;
 }
-#icon-home, #icon-nav{
+#icon-home,
+#icon-nav {
   font-size: 30px;
   color: var(--color-rose-title);
 }
@@ -43,7 +44,7 @@ a {
 
 a:hover {
   font-size: 20px;
-  font-family:"Share Tech Mono", monospace ;
+  font-family: "Share Tech Mono", monospace;
   color: var(--color-rose-title);
 }
 
@@ -76,12 +77,12 @@ a:hover {
   font-weight: 400;
 }
 
-.logo-sobremim{
-  margin:7%;
+.logo-sobremim {
+  margin: 7%;
   width: 450px;
-} 
+}
 
-.sobre-mim{
+.sobre-mim {
   width: 100%;
   color: var(--color-azure-letras);
   gap: 30px;
@@ -89,17 +90,18 @@ a:hover {
   align-items: center;
   justify-content: space-around;
   padding: 24px;
-  
-} 
-.meu-nome-sobre-mim{
-  font-size: 38px;
-} 
-.info-eu{
-display: flex;
-font-family: "Share Tech Mono", monospace;
-padding:5px;
 }
-.projetos-title, .contato-title, .sobre-mim-title{
+.meu-nome-sobre-mim {
+  font-size: 38px;
+}
+.info-eu {
+  display: flex;
+  font-family: "Share Tech Mono", monospace;
+  padding: 5px;
+}
+.projetos-title,
+.contato-title,
+.sobre-mim-title {
   font-size: 60px;
   padding: 20px;
   color: var(--color-rose-title);
@@ -108,85 +110,80 @@ padding:5px;
   border-top: 0.4px solid var(--color-purple-details);
 }
 
-.cards{
+.cards {
   display: flex;
   margin-bottom: 50px;
-  
 }
-.card-code-geek{
+.card-code-geek {
   border-right: 0.4px solid var(--color-purple-details);
-  
 }
-.card-reprodutor-music{
+.card-reprodutor-music {
   border-left: 0.4px solid var(--color-purple-details);
 }
-.card-code-geek, .card-meus-links, .card-reprodutor-music{
+.card-code-geek,
+.card-meus-links,
+.card-reprodutor-music {
   padding: 25px;
   width: 100%;
 }
-.img-card{ 
+.img-card {
   padding: 25px;
- /*filter: contrast(110%);*/
- filter: saturate(150%);
-  
-} 
+  /*filter: contrast(110%);*/
+  filter: saturate(150%);
+}
 
-.card-title{
+.card-title {
   font-size: 27px;
   color: var(--color-rose-title);
   display: flex;
   justify-content: center;
-} 
-.descrição{
+}
+.descrição {
   font-size: 17px;
-  font-family:"Share Tech Mono", monospace ;
+  font-family: "Share Tech Mono", monospace;
   text-align: justify;
   color: var(--color-azure-letras);
 }
 
-.ver-repositorio, .ver-projetos{
-  display:inline-block;
+.ver-repositorio,
+.ver-projetos {
+  display: inline-block;
   padding: 15px;
   gap: 12px;
   color: var(--color-purple-details);
   font-weight: bold;
   font-size: 17px;
-} 
+}
 
-.info-contato{
+.info-contato {
   font-size: 20px;
-  font-family:"Share Tech Mono", monospace ;
+  font-family: "Share Tech Mono", monospace;
   text-align: center;
   color: var(--color-azure-letras);
-  
 }
-strong{
+strong {
   color: var(--color-purple-details);
 }
-.redes-socias-contatos{
+.redes-socias-contatos {
   display: flex;
   justify-content: center;
   cursor: pointer;
-  gap: 30px; 
+  gap: 30px;
 }
 
-#icon-footer{
-  margin:30px 0 30px;
-  font-size: 30px; 
+#icon-footer {
+  margin: 30px 0 30px;
+  font-size: 30px;
   color: var(--color-rose-title);
 }
 
-footer{
+footer {
   padding: 13px;
-  background-color:#7a4ae225 ;
+  background-color: #7a4ae225;
 }
-.copyrigth{
+.copyrigth {
   font-size: 16px;
   opacity: 50%;
   color: var(--color-azure-letras);
   text-align: center;
 }
-
-
-
-
