@@ -32,12 +32,12 @@ header {
   font-size: 1.5rem;
   color: var(--color-rose-title);
 }
-.links{
+.links {
   display: inline-block;
   gap: 30px;
   padding: 20px;
 }
-#burguer{
+#burguer {
   display: none;
 }
 
@@ -45,7 +45,7 @@ header {
   display: block;
   flex-direction: column;
   gap: 2rem;
-  font-size: 1.20rem;
+  font-size: 1.2rem;
 }
 a {
   color: var(--color-azure-letras);
@@ -209,31 +209,31 @@ footer {
   #iconnav {
     display: block;
   }
-  #burguer{
+  #burguer {
     display: block;
     font-size: 1.875rem;
     color: var(--color-rose-title);
   }
-  #burguer:hover{
+  #burguer:hover {
     color: var(--color-purple-details);
   }
   .nav-menu {
-    display: none; 
+    display: none;
     font-size: 1.8rem;
   }
 
-  .links{
+  .links {
     display: flex;
     padding: 0.19rem;
   }
 
-  .logo{
+  .logo {
     display: none;
   }
   .logo-mobile {
-  display: flex;
-  justify-content: center;
-  height: 30vh;
+    display: flex;
+    justify-content: center;
+    height: 30vh;
   }
   .home-content {
     height: 100vh;
@@ -255,13 +255,13 @@ footer {
     font-size: 1rem;
     margin-bottom: 3.125rem;
   }
- 
+
   .sobre-mim-title {
     font-size: 2.188rem;
   }
-.sobre-mim{
-  height: 100vh;
-}
+  .sobre-mim {
+    height: 100vh;
+  }
   .logo-sobremim {
     display: none;
   }
@@ -271,7 +271,7 @@ footer {
   }
   .info-eu {
     font-size: 20px;
-    padding: 0.313rem; 
+    padding: 0.313rem;
   }
   .projetos-title {
     font-size: 2.188rem;
@@ -294,9 +294,9 @@ footer {
   }
   .ver-repositorio,
   .ver-projetos {
-  display: inline-block;
-  margin-left: 4px;
-}
+    display: inline-block;
+    margin-left: 4px;
+  }
   .card-code-geek {
     border-bottom: 0.4px solid var(--color-purple-details);
   }
