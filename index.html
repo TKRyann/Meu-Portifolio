@@ -10,15 +10,16 @@
   <title>KRPortifolio</title>
 </head>
 
-<body>
+<body onresize="mudouTamanho()">
   <header>
 
-    <i id="icon-nav" class="fa-solid fa-terminal fa-bounce"></i>
-    <nav class="nav-menu">
-      <a href="#home">Home</a>
-      <a href="#sobremim">Sobre mim</a>
-      <a href="#projetos">Projetos</a>
-      <a href="#contatos">Contato</a>
+    <i id="iconnav" class="fa-solid fa-terminal fa-bounce"></i>
+    <i id="burguer" class="fa-solid fa-bars" onclick="clickMenu()"></i>
+    <nav id="itens" class="nav-menu">
+      <a class="links" href="#home">Home</a>
+      <a class="links" href="#sobremim">Sobre mim</a>
+      <a class="links" href="#projetos">Projetos</a>
+      <a class="links" href="#contatos">Contato</a>
     </nav>
 
   </header>
@@ -85,8 +86,8 @@
           <p class="descrição">Este é um site simples baseado no conceito do Linktree, criado por mim usando HTML e CSS.
             O objetivo é fornecer uma maneira fácil e organizada de compartilhar vários links importantes em um só
             lugar.</p>
-          <a class="ver-projetos" href="#" target="_blank"><i class="fa-solid fa-link"></i>Ver Projeto</a>
-          <a class="ver-repositorio" href="#" target="_blank"> <i id="icon-card" class="fa-solid fa-link"></i> Ver
+          <a class="ver-projetos" href="https://tkryann.github.io/meuslinks/" target="_blank"><i class="fa-solid fa-link"></i>Ver Projeto</a>
+          <a class="ver-repositorio" href="https://github.com/TKRyann/meuslinks" target="_blank"> <i id="icon-card" class="fa-solid fa-link"></i> Ver
             Repositorio </a>
         </div>
 
@@ -126,6 +127,7 @@
       <p class="copyrigth">Copyright © Kherlysson Ryann · 2023</p>
     </footer>
   </main>
+  <script src="index.js"></script>
 </body>
 
 </html>

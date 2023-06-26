@@ -27,15 +27,25 @@ header {
   padding: 1rem;
 }
 #icon-home,
-#icon-nav {
-  font-size: 1.875rem;
+#iconnav {
+  display: flex;
+  font-size: 1.5rem;
   color: var(--color-rose-title);
+}
+.links{
+  display: inline-block;
+  gap: 30px;
+  padding: 20px;
+}
+#burguer{
+  display: none;
 }
 
 .nav-menu {
-  display: flex;
+  display: block;
+  flex-direction: column;
   gap: 2rem;
-  font-size: 1.25rem;
+  font-size: 1.20rem;
 }
 a {
   color: var(--color-azure-letras);
@@ -191,20 +201,32 @@ footer {
   color: var(--color-azure-letras);
   text-align: center;
 }
-@media screen and (max-width: 375px), (max-width: 768px) {
+@media screen and (max-width: 768px) {
   header {
     padding: 1.1rem;
   }
 
-  #icon-nav {
-    display: none;
+  #iconnav {
+    display: block;
+  }
+  #burguer{
+    display: block;
+    font-size: 1.875rem;
+    color: var(--color-rose-title);
+  }
+  #burguer:hover{
+    color: var(--color-purple-details);
+  }
+  .nav-menu {
+    display: none; 
+    font-size: 1.8rem;
   }
 
-  .nav-menu {  
+  .links{
     display: flex;
-    gap: 2rem;
-    font-size: 0.9rem;
+    padding: 0.19rem;
   }
+
   .logo{
     display: none;
   }
