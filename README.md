@@ -22,13 +22,11 @@ Centralizar meus projetos, facilitar o contato profissional e demonstrar minhas 
 ## 🌐 Acesse o projeto
 🔗 [https://tkryann.github.io/Meu-Portifolio/](https://meu-portifolio-tkryann.vercel.app/)
 
-*(Caso ainda não tenha publicado no GitHub Pages, me avise que te ensino em 2 minutos)*
 
 ---
 
 ## 📷 Preview
-> Adicione aqui imagens ou GIFs do portfólio para chamar ainda mais atenção de recrutadores.
-
+###
 ---
 
 ## 📞 Contato
